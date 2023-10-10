@@ -1,0 +1,10 @@
+[
+  {
+    "testDescription": "with all mandatory fields",
+    "httpstatuscode": 201,
+    "title": "New Product1",
+    "price": 100,
+    "description": "New Description",
+    "categoryId": 1
+  }
+]

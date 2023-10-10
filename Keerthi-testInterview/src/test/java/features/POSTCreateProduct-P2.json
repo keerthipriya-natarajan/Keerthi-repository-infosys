@@ -1,0 +1,46 @@
+[
+  {
+    "testDescription": "blank title",
+    "httpstatuscode": 400,
+    "title": "",
+    "price": 100,
+    "description": "New Description",
+    "categoryId": 1,
+    "images": [
+      "https://placeimg.com/640/480/any"
+    ]
+  },
+  {
+    "testDescription": "Blank description",
+    "httpstatuscode": 400,
+    "title": "New Product1",
+    "price": 100,
+    "description": "",
+    "categoryId": 1,
+    "images": [
+      "https://placeimg.com/640/480/any"
+    ]
+  },
+  {
+    "testDescription": "Invalid price",
+    "httpstatuscode": 400,
+    "title": "New Product1",
+    "price": -1,
+    "description": "New Description",
+    "categoryId": 1,
+    "images": [
+      "https://placeimg.com/640/480/any"
+    ]
+  },
+  {
+    "testDescription": "Invalid category id",
+    "httpstatuscode": 400,
+    "title": "New Product1",
+    "price": 100,
+    "description": "New Description",
+    "categoryId": -1,
+    "images": [
+      "https://placeimg.com/640/480/any"
+    ]
+  }
+]

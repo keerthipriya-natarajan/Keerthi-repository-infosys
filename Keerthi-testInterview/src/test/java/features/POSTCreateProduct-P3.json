@@ -1,0 +1,14 @@
+[
+  {
+   "testDescription" : "title field- Invalid datatype",
+    "title": 200,
+    "price": 100,
+    "httpstatuscode" : 400
+  },
+  {
+   "testDescription" : "price field - Invalid datatype",
+    "title": "Product1",
+    "price": "stringVlaue",
+    "httpstatuscode" : 400
+  }
+]

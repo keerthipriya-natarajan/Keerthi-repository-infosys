@@ -1,0 +1,14 @@
+[
+  {
+    "testDescription": "Blank title ",
+    "httpstatuscode": 400,
+    "title": "",
+    "price": 300
+  },
+  {
+    "testDescription": "Invalid price field Update",
+    "httpstatuscode": 400,
+    "title": "updatedTitle1",
+    "price": -200
+  }
+]
